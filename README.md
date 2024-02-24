@@ -9,3 +9,7 @@ here i'm doing:
 4. Making the Most of Posts
 5. Hit all the right notes
 6. Pages for the Ages
+
+In this section i :
+    1- Use tags and variables to grab and plade content in my Tumblr theme
+    2- Format variables with HTML and CSS.
