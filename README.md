@@ -11,5 +11,7 @@ here i'm doing:
 6. Pages for the Ages
 
 In this section i :
-    1- Use tags and variables to grab and place content in my Tumblr theme
-    2- Format variables with HTML and CSS.
+1- Use tags and variables to grab and place content in my Tumblr theme
+2- Format variables with HTML and CSS.
+3- format the text in the header.
+4- Position the header's content.
