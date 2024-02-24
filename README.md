@@ -11,5 +11,5 @@ here i'm doing:
 6. Pages for the Ages
 
 In this section i :
-    1- Use tags and variables to grab and plade content in my Tumblr theme
+    1- Use tags and variables to grab and place content in my Tumblr theme
     2- Format variables with HTML and CSS.
