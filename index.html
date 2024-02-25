@@ -96,6 +96,8 @@
     <div class="post">
       {audioplayer} {block:caption}{caption}{/block:caption}
     </div>
-    {/block:Audio} {/block:Posts}
+    {/block:Audio} {block:video}
+    <div class="post">{video-500} {block:caption}{caption}{/block:caption}</div>
+    {/block:video} {/block:Posts}
   </body>
 </html>
