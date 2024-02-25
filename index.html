@@ -93,7 +93,9 @@
       </table>
     </div>
     {/block:chat} {block:Audio}
-    <div class="post"></div>
+    <div class="post">
+      {audioplayer} {block:caption}{caption}{/block:caption}
+    </div>
     {/block:Audio} {/block:Posts}
   </body>
 </html>
