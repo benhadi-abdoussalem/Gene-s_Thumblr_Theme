@@ -20,7 +20,7 @@ In Section three "Blocks That Rocks!" I will:
 1- Do some {TemplateTag} housekeeping in my header.
 2- Create a place to put blog posts!
 
-In section four "Mahing the most of posts" I will cover:
+In section four "Making the most of posts" I will cover:
 1- How to tell Tumblr to create a photo post
 2- Make posts look good
 3- Some more post types
