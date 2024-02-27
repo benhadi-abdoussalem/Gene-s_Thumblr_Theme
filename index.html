@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>{Title}</title>
+
     <style>
       header {
         background: url(http://dash.ga.co/assets/gene-bg.png);
@@ -40,7 +41,7 @@
         border-radius: 100%;
       }
       .container {
-        width: 640px;
+        max-width: 640px;
         margin: 0 auto;
       }
       .like-reblog {
@@ -51,6 +52,18 @@
         float: right;
         padding: 6px;
         height: 20px;
+      }
+      .page {
+        background: #222;
+        padding: 20px;
+      }
+      .page a {
+        text-decoration: none;
+        color: #eee;
+      }
+      .pagelist {
+        margin: 0 auto;
+        width: 640px;
       }
     </style>
   </head>
@@ -66,7 +79,15 @@
       </div>
     </header>
 
-    {block:Posts} {block:Text}
+    {block:HasPages}
+    <div class="page">
+      {block:Pages}
+      <div class="pagelist">
+        <a href="{URl}">{Label}</a>
+      </div>
+      {/block:Pages}
+    </div>
+    {/block:HasPages} {block:Posts} {block:Text}
     <div class="post">
       {block:Title}
       <h3>
@@ -74,8 +95,8 @@
       </h3>
       {/block:Title} {Body}
       <ul class="like-reblog">
-        <li>{likebutton}</li>
-        <li>{reblogbutton}</li>
+        <li>{LikeButton}</li>
+        <li>{ReblogButton}</li>
         <li>{block:NoteCount}{NoteCountWithLabel}{/block:NoteCount}</li>
       </ul>
     </div>
@@ -110,7 +131,7 @@
     </div>
     {/block:Link} {block:Chat}
     <div class="post">
-      <h3>{block:Title}{Title}{/block:Title}</h3>
+      {block:Title}{Title}{/block:Title}
       <table>
         {block:Lines}
         <tr>
