@@ -28,3 +28,7 @@ In section four "Making the most of posts" I will cover:
 In section five "Hitting all the right notes!" I will cover:
 1- Make the posts likable and shareable.
 2- Brag (a little) about how well-loved you are.
+In section sex "Pages for the Ages" I will cover:
+1- Making multiple page inside my blog
+2- Permalink to my blog
+3- Following my followers
