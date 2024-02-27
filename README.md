@@ -26,3 +26,5 @@ In section four "Making the most of posts" I will cover:
 3- Some more post types
 
 In section five "Hitting all the right notes!" I will cover:
+1- Make the posts likable and shareable.
+2- Brag (a little) about how well-loved you are.
