@@ -24,3 +24,5 @@ In section four "Making the most of posts" I will cover:
 1- How to tell Tumblr to create a photo post
 2- Make posts look good
 3- Some more post types
+
+In section five "Hitting all the right notes!" I will cover:
