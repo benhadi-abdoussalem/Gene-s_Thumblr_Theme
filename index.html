@@ -104,7 +104,7 @@
         <li>{block:Date}<a href="{Permalink}">{TimeAgo}</a>{/block:Date}</li>
       </ul>
     </div>
-    {/block:Text} {block:Photo}
+    {block:PostNotes}{PostNotes}{/block:PostNotes} {/block:Text} {block:Photo}
     <div class="post">
       <img src="{PhotoURL-500}" />
       {block:Caption}{Caption}{/block:Caption}
@@ -118,7 +118,7 @@
         <li>{block:Date}<a href="{Permalink}">{TimeAgo}</a>{/block:Date}</li>
       </ul>
     </div>
-    {/block:Photo} {block:Quote}
+    {block:PostNotes}{PostNotes}{/block:PostNotes} {/block:Photo} {block:Quote}
     <div class="post">
       {Quote} {block:Source}<br />&mdash;{Source}{/block:Source}
       <ul class="like-reblog">
@@ -131,7 +131,7 @@
         <li>{block:Date}<a href="{Permalink}">{TimeAgo}</a>{/block:Date}</li>
       </ul>
     </div>
-    {/block:Quote} {block:Link}
+    {block:PostNotes}{PostNotes}{/block:PostNotes} {/block:Quote} {block:Link}
     <div class="post">
       <a href="{URL}" {Target}>{Name}</a>
       {block:Description}{Description}{/block:Description}
@@ -145,7 +145,7 @@
         <li>{block:Date}<a href="{Permalink}">{TimeAgo}</a>{/block:Date}</li>
       </ul>
     </div>
-    {/block:Link} {block:Chat}
+    {block:PostNotes}{PostNotes}{/block:PostNotes} {/block:Link} {block:Chat}
     <div class="post">
       {block:Title}{Title}{/block:Title}
       <table>
@@ -166,7 +166,7 @@
         <li>{block:Date}<a href="{Permalink}">{TimeAgo}</a>{/block:Date}</li>
       </ul>
     </div>
-    {/block:Chat} {block:Audio}
+    {block:PostNotes}{PostNotes}{/block:PostNotes} {/block:Chat} {block:Audio}
     <div class="post">
       {AudioPlayer} {block:Caption}{Caption}{/block:Caption}
       <ul class="like-reblog">
@@ -179,7 +179,7 @@
         <li>{block:Date}<a href="{Permalink}">{TimeAgo}</a>{/block:Date}</li>
       </ul>
     </div>
-    {/block:Audio} {block:Video}
+    {block:PostNotes}{PostNotes}{/block:PostNotes} {/block:Audio} {block:Video}
     <div class="post">
       {Video-500} {block:Caption}{Caption}{/block:Caption}
       <ul class="like-reblog">
@@ -192,6 +192,6 @@
         <li>{block:Date}<a href="{Permalink}">{TimeAgo}</a>{/block:Date}</li>
       </ul>
     </div>
-    {/block:Video} {/block:Posts}
+    {block:PostNotes}{PostNotes}{/block:PostNotes} {/block:Video} {/block:Posts}
   </body>
 </html>
