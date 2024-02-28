@@ -193,7 +193,8 @@
       </ul>
     </div>
     {block:PostNotes}{PostNotes}{/block:PostNotes} {/block:Video} {/block:Posts}
-    {block:Pagination} {block:PreviousPage}{/block:PreviousPage}
-    {block:NextPage}{/block:NextPage} {/block:Pagination}
+    {block:Pagination} {block:PreviousPage}<a href="{PreviousPage}">Previous</a
+    >{/block:PreviousPage} {block:NextPage}<a href="{NextPage}">Next</a
+    >{/block:NextPage} {/block:Pagination}
   </body>
 </html>
